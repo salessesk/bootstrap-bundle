@@ -64,7 +64,8 @@ class NavigationTreeHelper {
 
             // Remove the icon only on the last level.
             if (true === $delete && 0 < $level) {
-                $n->setIcon(null);
+                //Disable removal of icon on last active node
+                //$n->setIcon(null);
             }
 
             // Set the result.
